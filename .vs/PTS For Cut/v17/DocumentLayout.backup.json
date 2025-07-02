@@ -1,0 +1,64 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\TKSonic\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{646E27B1-3959-426F-BC92-CE4F9308E388}|PTS For Cut\\PTS For Cut.csproj|c:\\tksonic\\pts for cut\\_main\\homepage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{646E27B1-3959-426F-BC92-CE4F9308E388}|PTS For Cut\\PTS For Cut.csproj|solutionrelative:pts for cut\\_main\\homepage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{646E27B1-3959-426F-BC92-CE4F9308E388}|PTS For Cut\\PTS For Cut.csproj|c:\\tksonic\\pts for cut\\3spreading\\plancut\\plancut.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{646E27B1-3959-426F-BC92-CE4F9308E388}|PTS For Cut\\PTS For Cut.csproj|solutionrelative:pts for cut\\3spreading\\plancut\\plancut.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "HomePage.cs [Design]",
+              "DocumentMoniker": "C:\\TKSonic\\PTS For Cut\\_Main\\HomePage.cs",
+              "RelativeDocumentMoniker": "PTS For Cut\\_Main\\HomePage.cs",
+              "ToolTip": "C:\\TKSonic\\PTS For Cut\\_Main\\HomePage.cs [Design]",
+              "RelativeToolTip": "PTS For Cut\\_Main\\HomePage.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-02T09:06:35.973Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "PlanCut.cs [Design]",
+              "DocumentMoniker": "C:\\TKSonic\\PTS For Cut\\3Spreading\\PlanCut\\PlanCut.cs",
+              "RelativeDocumentMoniker": "PTS For Cut\\3Spreading\\PlanCut\\PlanCut.cs",
+              "ToolTip": "C:\\TKSonic\\PTS For Cut\\3Spreading\\PlanCut\\PlanCut.cs [Design]",
+              "RelativeToolTip": "PTS For Cut\\3Spreading\\PlanCut\\PlanCut.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-02T09:05:03.388Z",
+              "EditorCaption": " [Design]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

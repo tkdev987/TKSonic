@@ -1,0 +1,128 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="AppData" targetNamespace="http://tempuri.org/AppData.xsd" xmlns:mstns="http://tempuri.org/AppData.xsd" xmlns="http://tempuri.org/AppData.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="AppData" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="AppData" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="AppData">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="RetioDataTable" msprop:Generator_RowEvHandlerName="RetioDataTableRowChangeEventHandler" msprop:Generator_RowDeletedName="RetioDataTableRowDeleted" msprop:Generator_RowDeletingName="RetioDataTableRowDeleting" msprop:Generator_RowEvArgName="RetioDataTableRowChangeEvent" msprop:Generator_TablePropName="RetioDataTable" msprop:Generator_RowChangedName="RetioDataTableRowChanged" msprop:Generator_UserTableName="RetioDataTable" msprop:Generator_RowChangingName="RetioDataTableRowChanging" msprop:Generator_RowClassName="RetioDataTableRow" msprop:Generator_TableClassName="RetioDataTableDataTable" msprop:Generator_TableVarName="tableRetioDataTable">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Id" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="-1" msprop:Generator_ColumnPropNameInTable="IdColumn" msprop:Generator_ColumnPropNameInRow="Id" msprop:Generator_UserColumnName="Id" msprop:Generator_ColumnVarNameInTable="columnId" type="xs:int" />
+              <xs:element name="ColumnName" msprop:Generator_ColumnPropNameInTable="ColumnNameColumn" msprop:Generator_ColumnPropNameInRow="ColumnName" msprop:Generator_UserColumnName="ColumnName" msprop:Generator_ColumnVarNameInTable="columnColumnName" type="xs:string" minOccurs="0" />
+              <xs:element name="RowID" msprop:Generator_ColumnPropNameInTable="RowIDColumn" msprop:Generator_ColumnPropNameInRow="RowID" msprop:Generator_UserColumnName="RowID" msprop:Generator_ColumnVarNameInTable="columnRowID" type="xs:int" minOccurs="0" />
+              <xs:element name="Value" msprop:Generator_ColumnPropNameInTable="ValueColumn" msprop:Generator_ColumnPropNameInRow="Value" msprop:Generator_UserColumnName="Value" msprop:Generator_ColumnVarNameInTable="columnValue" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="ActualCutTb" msprop:Generator_RowEvHandlerName="ActualCutTbRowChangeEventHandler" msprop:Generator_RowDeletedName="ActualCutTbRowDeleted" msprop:Generator_RowDeletingName="ActualCutTbRowDeleting" msprop:Generator_RowEvArgName="ActualCutTbRowChangeEvent" msprop:Generator_TablePropName="ActualCutTb" msprop:Generator_RowChangedName="ActualCutTbRowChanged" msprop:Generator_UserTableName="ActualCutTb" msprop:Generator_RowChangingName="ActualCutTbRowChanging" msprop:Generator_RowClassName="ActualCutTbRow" msprop:Generator_TableClassName="ActualCutTbDataTable" msprop:Generator_TableVarName="tableActualCutTb">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Id" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="-1" msprop:Generator_ColumnPropNameInTable="IdColumn" msprop:Generator_ColumnPropNameInRow="Id" msprop:Generator_UserColumnName="Id" msprop:Generator_ColumnVarNameInTable="columnId" type="xs:int" />
+              <xs:element name="Color" msprop:Generator_ColumnPropNameInTable="ColorColumn" msprop:Generator_ColumnPropNameInRow="Color" msprop:Generator_UserColumnName="Color" msprop:Generator_ColumnVarNameInTable="columnColor" type="xs:string" minOccurs="0" />
+              <xs:element name="or" msprop:Generator_ColumnPropNameInTable="orColumn" msprop:Generator_ColumnPropNameInRow="or" msprop:Generator_UserColumnName="or" msprop:Generator_ColumnVarNameInTable="columnor" type="xs:string" minOccurs="0" />
+              <xs:element name="ColumnName" msprop:Generator_ColumnPropNameInTable="ColumnNameColumn" msprop:Generator_ColumnPropNameInRow="ColumnName" msprop:Generator_UserColumnName="ColumnName" msprop:Generator_ColumnVarNameInTable="columnColumnName" type="xs:string" minOccurs="0" />
+              <xs:element name="RowID" msprop:Generator_ColumnPropNameInTable="RowIDColumn" msprop:Generator_ColumnPropNameInRow="RowID" msprop:Generator_UserColumnName="RowID" msprop:Generator_ColumnVarNameInTable="columnRowID" type="xs:int" minOccurs="0" />
+              <xs:element name="Value" msprop:Generator_ColumnPropNameInTable="ValueColumn" msprop:Generator_ColumnPropNameInRow="Value" msprop:Generator_UserColumnName="Value" msprop:Generator_ColumnVarNameInTable="columnValue" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="BundleTb" msprop:Generator_RowEvHandlerName="BundleTbRowChangeEventHandler" msprop:Generator_RowDeletedName="BundleTbRowDeleted" msprop:Generator_RowDeletingName="BundleTbRowDeleting" msprop:Generator_RowEvArgName="BundleTbRowChangeEvent" msprop:Generator_TablePropName="BundleTb" msprop:Generator_RowChangedName="BundleTbRowChanged" msprop:Generator_UserTableName="BundleTb" msprop:Generator_RowChangingName="BundleTbRowChanging" msprop:Generator_RowClassName="BundleTbRow" msprop:Generator_TableClassName="BundleTbDataTable" msprop:Generator_TableVarName="tableBundleTb">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Id" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="-1" msprop:Generator_ColumnPropNameInTable="IdColumn" msprop:Generator_ColumnPropNameInRow="Id" msprop:Generator_UserColumnName="Id" msprop:Generator_ColumnVarNameInTable="columnId" type="xs:int" />
+              <xs:element name="Color" msprop:Generator_ColumnPropNameInTable="ColorColumn" msprop:Generator_ColumnPropNameInRow="Color" msprop:Generator_UserColumnName="Color" msprop:Generator_ColumnVarNameInTable="columnColor" type="xs:string" minOccurs="0" />
+              <xs:element name="No" msprop:Generator_ColumnPropNameInTable="NoColumn" msprop:Generator_ColumnPropNameInRow="No" msprop:Generator_UserColumnName="No" msprop:Generator_ColumnVarNameInTable="columnNo" type="xs:string" minOccurs="0" />
+              <xs:element name="Size" msprop:Generator_ColumnPropNameInTable="SizeColumn" msprop:Generator_ColumnPropNameInRow="Size" msprop:Generator_UserColumnName="Size" msprop:Generator_ColumnVarNameInTable="columnSize" type="xs:string" minOccurs="0" />
+              <xs:element name="SpreadingID" msprop:Generator_ColumnPropNameInTable="SpreadingIDColumn" msprop:Generator_ColumnPropNameInRow="SpreadingID" msprop:Generator_UserColumnName="SpreadingID" msprop:Generator_ColumnVarNameInTable="columnSpreadingID" type="xs:string" minOccurs="0" />
+              <xs:element name="BundleNo" msprop:Generator_ColumnPropNameInTable="BundleNoColumn" msprop:Generator_ColumnPropNameInRow="BundleNo" msprop:Generator_UserColumnName="BundleNo" msprop:Generator_ColumnVarNameInTable="columnBundleNo" type="xs:string" minOccurs="0" />
+              <xs:element name="QTY" msprop:Generator_ColumnPropNameInTable="QTYColumn" msprop:Generator_ColumnPropNameInRow="QTY" msprop:Generator_UserColumnName="QTY" msprop:Generator_ColumnVarNameInTable="columnQTY" type="xs:string" minOccurs="0" />
+              <xs:element name="Decoration" msprop:Generator_ColumnPropNameInTable="DecorationColumn" msprop:Generator_ColumnPropNameInRow="Decoration" msprop:Generator_UserColumnName="Decoration" msprop:Generator_ColumnVarNameInTable="columnDecoration" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="CuttingRemarkByColor" msprop:Generator_RowEvHandlerName="CuttingRemarkByColorRowChangeEventHandler" msprop:Generator_RowDeletedName="CuttingRemarkByColorRowDeleted" msprop:Generator_RowDeletingName="CuttingRemarkByColorRowDeleting" msprop:Generator_RowEvArgName="CuttingRemarkByColorRowChangeEvent" msprop:Generator_TablePropName="CuttingRemarkByColor" msprop:Generator_RowChangedName="CuttingRemarkByColorRowChanged" msprop:Generator_UserTableName="CuttingRemarkByColor" msprop:Generator_RowChangingName="CuttingRemarkByColorRowChanging" msprop:Generator_RowClassName="CuttingRemarkByColorRow" msprop:Generator_TableClassName="CuttingRemarkByColorDataTable" msprop:Generator_TableVarName="tableCuttingRemarkByColor">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Id" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="-1" msprop:Generator_ColumnPropNameInTable="IdColumn" msprop:Generator_ColumnPropNameInRow="Id" msprop:Generator_UserColumnName="Id" msprop:Generator_ColumnVarNameInTable="columnId" type="xs:int" />
+              <xs:element name="Color" msprop:Generator_ColumnPropNameInTable="ColorColumn" msprop:nullValue="_empty" msprop:Generator_ColumnPropNameInRow="Color" msprop:Generator_UserColumnName="Color" msprop:Generator_ColumnVarNameInTable="columnColor" type="xs:string" minOccurs="0" />
+              <xs:element name="StartDate" msprop:Generator_ColumnPropNameInTable="StartDateColumn" msprop:nullValue="_empty" msprop:Generator_ColumnPropNameInRow="StartDate" msprop:Generator_UserColumnName="StartDate" msprop:Generator_ColumnVarNameInTable="columnStartDate" type="xs:string" minOccurs="0" />
+              <xs:element name="EndDate" msprop:Generator_ColumnPropNameInTable="EndDateColumn" msprop:nullValue="_empty" msprop:Generator_ColumnPropNameInRow="EndDate" msprop:Generator_UserColumnName="EndDate" msprop:Generator_ColumnVarNameInTable="columnEndDate" type="xs:string" minOccurs="0" />
+              <xs:element name="Remark" msprop:Generator_ColumnPropNameInTable="RemarkColumn" msprop:nullValue="_empty" msprop:Generator_ColumnPropNameInRow="Remark" msprop:Generator_UserColumnName="Remark" msprop:Generator_ColumnVarNameInTable="columnRemark" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="DeliveryNote" msprop:Generator_RowEvHandlerName="DeliveryNoteRowChangeEventHandler" msprop:Generator_RowDeletedName="DeliveryNoteRowDeleted" msprop:Generator_RowDeletingName="DeliveryNoteRowDeleting" msprop:Generator_RowEvArgName="DeliveryNoteRowChangeEvent" msprop:Generator_TablePropName="DeliveryNote" msprop:Generator_RowChangedName="DeliveryNoteRowChanged" msprop:Generator_UserTableName="DeliveryNote" msprop:Generator_RowChangingName="DeliveryNoteRowChanging" msprop:Generator_RowClassName="DeliveryNoteRow" msprop:Generator_TableClassName="DeliveryNoteDataTable" msprop:Generator_TableVarName="tableDeliveryNote">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Id" msprop:Generator_ColumnPropNameInTable="IdColumn" msprop:Generator_ColumnPropNameInRow="Id" msprop:Generator_UserColumnName="Id" msprop:Generator_ColumnVarNameInTable="columnId" type="xs:string" />
+              <xs:element name="BD" msprop:Generator_ColumnPropNameInTable="BDColumn" msprop:Generator_ColumnPropNameInRow="BD" msprop:Generator_UserColumnName="BD" msprop:Generator_ColumnVarNameInTable="columnBD" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="BD_DN_tb" msprop:Generator_RowEvHandlerName="BD_DN_tbRowChangeEventHandler" msprop:Generator_RowDeletedName="BD_DN_tbRowDeleted" msprop:Generator_RowDeletingName="BD_DN_tbRowDeleting" msprop:Generator_RowEvArgName="BD_DN_tbRowChangeEvent" msprop:Generator_TablePropName="BD_DN_tb" msprop:Generator_RowChangedName="BD_DN_tbRowChanged" msprop:Generator_UserTableName="BD_DN_tb" msprop:Generator_RowChangingName="BD_DN_tbRowChanging" msprop:Generator_RowClassName="BD_DN_tbRow" msprop:Generator_TableClassName="BD_DN_tbDataTable" msprop:Generator_TableVarName="tableBD_DN_tb">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Id" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="-1" msprop:Generator_ColumnPropNameInTable="IdColumn" msprop:Generator_ColumnPropNameInRow="Id" msprop:Generator_UserColumnName="Id" msprop:Generator_ColumnVarNameInTable="columnId" type="xs:int" />
+              <xs:element name="QR" msprop:Generator_ColumnPropNameInTable="QRColumn" msprop:Generator_ColumnPropNameInRow="QR" msprop:Generator_UserColumnName="QR" msprop:Generator_ColumnVarNameInTable="columnQR" type="xs:string" minOccurs="0" />
+              <xs:element name="SD" msprop:Generator_ColumnPropNameInTable="SDColumn" msprop:Generator_ColumnPropNameInRow="SD" msprop:Generator_UserColumnName="SD" msprop:Generator_ColumnVarNameInTable="columnSD" type="xs:string" minOccurs="0" />
+              <xs:element name="Color" msprop:Generator_ColumnPropNameInTable="ColorColumn" msprop:Generator_ColumnPropNameInRow="Color" msprop:Generator_UserColumnName="Color" msprop:Generator_ColumnVarNameInTable="columnColor" type="xs:string" minOccurs="0" />
+              <xs:element name="Size" msprop:Generator_ColumnPropNameInTable="SizeColumn" msprop:Generator_ColumnPropNameInRow="Size" msprop:Generator_UserColumnName="Size" msprop:Generator_ColumnVarNameInTable="columnSize" type="xs:string" minOccurs="0" />
+              <xs:element name="ClothingPart" msprop:Generator_ColumnPropNameInTable="ClothingPartColumn" msprop:Generator_ColumnPropNameInRow="ClothingPart" msprop:Generator_UserColumnName="ClothingPart" msprop:Generator_ColumnVarNameInTable="columnClothingPart" type="xs:string" minOccurs="0" />
+              <xs:element name="BundleNo" msprop:Generator_ColumnPropNameInTable="BundleNoColumn" msprop:Generator_ColumnPropNameInRow="BundleNo" msprop:Generator_UserColumnName="BundleNo" msprop:Generator_ColumnVarNameInTable="columnBundleNo" type="xs:string" minOccurs="0" />
+              <xs:element name="QTY" msprop:Generator_ColumnPropNameInTable="QTYColumn" msprop:Generator_ColumnPropNameInRow="QTY" msprop:Generator_UserColumnName="QTY" msprop:Generator_ColumnVarNameInTable="columnQTY" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="BD_DN_Sumtb" msprop:Generator_RowEvHandlerName="BD_DN_SumtbRowChangeEventHandler" msprop:Generator_RowDeletedName="BD_DN_SumtbRowDeleted" msprop:Generator_RowDeletingName="BD_DN_SumtbRowDeleting" msprop:Generator_RowEvArgName="BD_DN_SumtbRowChangeEvent" msprop:Generator_TablePropName="BD_DN_Sumtb" msprop:Generator_RowChangedName="BD_DN_SumtbRowChanged" msprop:Generator_UserTableName="BD_DN_Sumtb" msprop:Generator_RowChangingName="BD_DN_SumtbRowChanging" msprop:Generator_RowClassName="BD_DN_SumtbRow" msprop:Generator_TableClassName="BD_DN_SumtbDataTable" msprop:Generator_TableVarName="tableBD_DN_Sumtb">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Id" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="-1" msprop:Generator_ColumnPropNameInTable="IdColumn" msprop:Generator_ColumnPropNameInRow="Id" msprop:Generator_UserColumnName="Id" msprop:Generator_ColumnVarNameInTable="columnId" type="xs:int" />
+              <xs:element name="ColumnName" msprop:Generator_ColumnPropNameInTable="ColumnNameColumn" msprop:Generator_ColumnPropNameInRow="ColumnName" msprop:Generator_UserColumnName="ColumnName" msprop:Generator_ColumnVarNameInTable="columnColumnName" type="xs:string" minOccurs="0" />
+              <xs:element name="RowID" msprop:Generator_ColumnPropNameInTable="RowIDColumn" msprop:Generator_ColumnPropNameInRow="RowID" msprop:Generator_UserColumnName="RowID" msprop:Generator_ColumnVarNameInTable="columnRowID" type="xs:int" minOccurs="0" />
+              <xs:element name="Value" msprop:Generator_ColumnPropNameInTable="ValueColumn" msprop:Generator_ColumnPropNameInRow="Value" msprop:Generator_UserColumnName="Value" msprop:Generator_ColumnVarNameInTable="columnValue" type="xs:string" minOccurs="0" />
+              <xs:element name="SD" msprop:Generator_ColumnPropNameInRow="SD" msprop:Generator_ColumnPropNameInTable="SDColumn" msprop:Generator_ColumnVarNameInTable="columnSD" msprop:Generator_UserColumnName="SD" type="xs:string" minOccurs="0" />
+              <xs:element name="Color" msprop:Generator_ColumnPropNameInRow="Color" msprop:Generator_ColumnPropNameInTable="ColorColumn" msprop:Generator_ColumnVarNameInTable="columnColor" msprop:Generator_UserColumnName="Color" type="xs:string" minOccurs="0" />
+              <xs:element name="Part" msprop:Generator_ColumnPropNameInRow="Part" msprop:Generator_ColumnPropNameInTable="PartColumn" msprop:Generator_ColumnVarNameInTable="columnPart" msprop:Generator_UserColumnName="Part" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="RetioDataTableKey1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:RetioDataTable" />
+      <xs:field xpath="mstns:Id" />
+    </xs:unique>
+    <xs:unique name="ActualCutTbKey1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:ActualCutTb" />
+      <xs:field xpath="mstns:Id" />
+    </xs:unique>
+    <xs:unique name="BundleTbKey1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:BundleTb" />
+      <xs:field xpath="mstns:Id" />
+    </xs:unique>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:CuttingRemarkByColor" />
+      <xs:field xpath="mstns:Id" />
+    </xs:unique>
+    <xs:unique name="DeliveryNoteKey1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:DeliveryNote" />
+      <xs:field xpath="mstns:Id" />
+    </xs:unique>
+    <xs:unique name="BD_DN_tbKey1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:BD_DN_tb" />
+      <xs:field xpath="mstns:Id" />
+    </xs:unique>
+    <xs:unique name="BD_DN_SumtbKey1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:BD_DN_Sumtb" />
+      <xs:field xpath="mstns:Id" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>
