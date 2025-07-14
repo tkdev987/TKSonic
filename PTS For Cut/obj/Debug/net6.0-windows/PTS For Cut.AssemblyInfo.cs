@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("PTS For Cut")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+579d6a700567562f4c1ab17e272403f8a1389f85")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
 [assembly: System.Reflection.AssemblyProductAttribute("PTS For Cut")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PTS For Cut")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -214,7 +214,8 @@ namespace PTS_For_Cut.Spreading.Create
 
                             for (int t = 6; t < str.Length; t++)
                             {
-                                if (str[t].ToString() == "T")
+                                //MessageBox.Show(str[t].ToString());
+                                if (str[t].ToString() == "t")
                                 {
                                     break;
                                 }
@@ -222,14 +223,17 @@ namespace PTS_For_Cut.Spreading.Create
                                 {
                                     strMarkRound += str[t].ToString();
                                 }
-                                if (str.Substring(0, 6) == "Marker" && str[t].ToString() == "-")
+                                if (str.Substring(0, 6) == "Marker" && str[t].ToString() == ",")
                                 {
                                     getStart = true;
                                 }
                             }
+
+
                             if (strMarkRound != "")
                             {
-                                markRound = int.Parse(strMarkRound);
+
+                                markRound = int.Parse(strMarkRound.Trim().ToString());
                             }
                         }
                         if (canGet && gvExcel.Rows[i].Cells[0].Value.ToString().Substring(0, 6) == "Marker")
